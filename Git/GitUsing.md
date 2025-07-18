@@ -1,18 +1,27 @@
-# 【从 GitHub 拉取项目】
-如果你已经拉取项目到本地了，可以直接跳到[《安装Unity》](Unity.md)部分。
+<h1 align="center"> 使用 Git 管理项目</h1>
 
-使用Git从GitHub拉取项目的方式有很多，你可以直接使用 Git Bash 通过命令行来拉取项目。\
-或者使用免费的 Git 的图形化客户端，比如 [Sourcetree](https://www.sourcetreeapp.com/) 或者 [GitHub Desktop](https://desktop.github.com/download/) 来进行Git的操作。\
-其他像是 [Fork](https://git-fork.com/) 或者 [GitKraken](https://www.gitkraken.com/) 也是非常不错的选择，但这两个工具有免费和收费策略。
+## 简介
+此文档介绍如何使用 Git 来管理项目版本，使用 GitHub 来托管项目仓库。\
+以及使用 Git 图形化客户端来进行各种 Git 操作。
 
 ## 关于 Git
-Git 是一个分布式版本控制系统。\
-它允许团队开发时，每个成员并行开发工作，最后将工作成果合并后作为最终的工作成果。\
+Git 是一个分布式版本控制系统，用于跟踪文件的更改，特别适用于管理源代码。\
+它允许团队开发时，每个成员并行开发工作，最后将工作成果合并后作为最终的工作成果。
 
-## 分支
+### 分支
 Git 是基于分支进行项目管理的。\
 了解分支有注意你处理多人开发时，不同工作内容的平行开发，合并，并更新内容到 master 分支。\
 如果你想了解更多关于分支的内容，可以阅读[菜鸟教程 Git 分支管理](https://www.runoob.com/git/git-branch.html)的文章。
+
+## 关于 Git 仓库
+Git 本身只提供了版本管理的功能。我们还需要在远端仓库托管你的项目。\
+你可以自建服务器来托管，或者使用 [GitHub](https://github.com/) 这样的免费代码仓库托管平台。\
+在示例中，我们使用GitHub来托管仓库。
+
+## 关于 Git 操作方式
+使用 Git 从的方式有很多，你可以直接使用 Git Bash 通过命令行来拉取项目。\
+或者使用免费的 Git 的图形化客户端，比如 [Sourcetree](https://www.sourcetreeapp.com/) 或者 [GitHub Desktop](https://desktop.github.com/download/) 来进行Git的操作。\
+其他像是 [Fork](https://git-fork.com/) 或者 [GitKraken](https://www.gitkraken.com/) 也是非常不错的选择，但这两个工具有免费和收费策略。
 
 ## 安装 Git
 首先你需要从 https://git-scm.com/downloads 下载 Git。\
