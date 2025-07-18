@@ -11,6 +11,7 @@
 使用 Git 对项目进行管理。
 - [使用 Git 管理项目](Git/GitUsing.md)
 - [使用 SSH 密钥连接 GitHub 并同步代码](Git/GitUsing_SSH.md)
+- [使用 GPG 为你的 Commit 签名](Git/GitUsing_GPG.md)
 
 ## Unity
 使用 Unity 开发游戏。
