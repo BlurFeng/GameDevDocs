@@ -2,7 +2,8 @@
 如果你已经拉取项目到本地了，可以直接跳到[《安装Unity》](Unity.md)部分。
 
 使用Git从GitHub拉取项目的方式有很多，你可以直接使用 Git Bash 通过命令行来拉取项目。\
-或者使用 Git 的图形化客户端，比如 [GitHub Desktop](https://desktop.github.com/download/) 或者 [Sourcetree](https://www.sourcetreeapp.com/) 来进行Git的操作。
+或者使用免费的 Git 的图形化客户端，比如 [Sourcetree](https://www.sourcetreeapp.com/) 或者 [GitHub Desktop](https://desktop.github.com/download/) 来进行Git的操作。\
+其他像是 [Fork](https://git-fork.com/) 或者 [GitKraken](https://www.gitkraken.com/) 也是非常不错的选择，但这两个工具有免费和收费策略。
 
 ## 关于 Git
 Git 是一个分布式版本控制系统。\
@@ -15,8 +16,6 @@ Git 是基于分支进行项目管理的。\
 
 ## 安装 Git
 首先你需要从 https://git-scm.com/downloads 下载 Git。\
-(如果之后使用 Sourcetree 的话，可以跳过安装 Git 的步骤。因为 Sourcetree 安装器包含 Git 的安装。)
-
 选择对应的版本并下载 Git 安装包。
 
 ![](Images/Git_1.png)
@@ -27,12 +26,15 @@ Git 是基于分支进行项目管理的。\
 ![](Images/Git_3.png)
 ![](Images/Git_4.png)
 
-安装完成后，你可以直接通过 Git Bash 使用命令行来拉取项目。
+安装完成后，你可以直接通过 Git Bash 使用命令行来拉取项目。\
+![](Images/GitBash.png)
 
 ## 使用 Sourcetree
 Sourcetree 的界面相对复杂一些，但提供来更大的可操作性。\
 可视化的 Git 分支树方便了多分支的处理。\
-推荐使用，因为你可能需要在 Git 分支遇到问题时负责处理，如果你不想使用复杂的命令行，Sourcetree 是最好的选择，他提供了很多常用的 Git 操作，基本能解决遇到的各种Git相关问题。
+推荐使用，因为你可能需要在 Git 分支遇到问题时需要处理。\
+如果你不想使用复杂的命令行，Sourcetree 是最好的选择，他提供了很多常用的 Git 操作，基本能解决遇到的各种Git相关问题。\
+当然他也有自己的问题，在预览代码过多或者操作内容过多时会卡顿，此时推荐直接使用 IDE 的 Git 工具或使用 Git Bash 来操作。
 打开 https://www.sourcetreeapp.com/ 并下载 Sourcetree 安装包。
 
 ![](Images/Git_S_1.png)
@@ -106,7 +108,8 @@ Sourcetree 的界面相对复杂一些，但提供来更大的可操作性。\
 
 
 ## 使用 GitHub Desktop
-GitHub Desktop 的界面简洁，简单易用。
+GitHub Desktop 的界面简洁，简单易用。\
+但他没有提供可视化分支树。\
 打开 https://desktop.github.com/download/ 并下载 GitHub Desktop。
 
 ![](Images/Git_D_1.png)
